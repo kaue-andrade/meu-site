@@ -1,3 +1,22 @@
+/*Margin: define a margem
+Padding: espaço interno entre o conteúdo de um elemento e sua borda
+Background e similares: define o plano de fundo das páginas. 
+List-style: define o tipo de marcador, a posição e aparência das listas ordenadas
+e não ordenadas
+Text-align: define o alinhamento horizontal do texto dentro de um elemento
+Display: como um elemento deve ser exibido na(s) página(s).
+Margin-right: define a margem direita
+Text-decoration: define o estilo de decoração do texto
+Font-size: define o tamanho da fonte
+Width: largura
+Max-width: largura máxima
+Position: define o método de posicionamento de uma elemento
+Top: distância entre o topo do elemento posicionado e o topo do seu contêiner de referência
+Left: define a distãncia entre a borda esquerda do elemento posicionado e a borda de seu contêiner de referência
+Transform: translate(x,y) manipula o x e o y do elemento em questão
+Text-indent: defien o recuo da primeira linha em relação a um bloco de texto 
+*/
+
 body {
     margin: 0;
     padding: 0;

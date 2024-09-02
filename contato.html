@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <title>Contato</title>
 
+
+    <!-- Define as configurações do .forumlario, form, h1, button nesta página-->
     <style>
-        .form {
+        .formulario {
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 100%;
@@ -39,6 +41,10 @@
     </style>
 </head>
 <body>
+
+    <!-- Usa o nav como bloco de estruturação (links de navegação) e define uma lista não ordenada. Dentro
+     da lista não ordenada, existem os links em cada li que levam a cada página do site. -->
+
     <nav>
         <ul class="menu">
             <a href="index.html"><li>Sobre mim</li></a>
@@ -48,9 +54,11 @@
         </ul>
     </nav>
 
-
+    <!--Section é usado para o conteúdo agrupado. Nesse caso, coloquei um formulário de contato com labels
+    correspondentes e os inputs que são identificáveis para serem utilizados posteriormente no js-->
+    
     <section>
-        <div class="form">
+        <div class="formulario">
         <h1>FORMULÁRIO DE CONTATO</h1>
 
         <form id="form_contato">
@@ -66,6 +74,7 @@
             <button type="submit">Enviar</button>
 
         </form>
+        <!--Cria o div envioForm para o envio do formulário-->
         <div id="envioForm"></div>
         </div>
     </section>
