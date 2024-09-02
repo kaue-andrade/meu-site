@@ -8,5 +8,4 @@ document.getElementById('form_contato').addEventListener('submit', function(even
 
     document.getElementById('form_contato').reset(); // Reseta o formulário
 
-
 });
